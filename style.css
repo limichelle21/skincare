@@ -1,0 +1,48 @@
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Shadows+Into+Light', cursive */
+
+
+
+body {
+  background-color: #fff;
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+.jumbotron > h1 {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+
+nav {
+  height: 5rem;
+  text-align: right;
+  padding: 1rem 0;
+}
+
+ul.nav.nav-pills {
+    text-align: right;
+}
+
+.nav-pills > li {
+    float: none;
+    display: inline-block;
+}
+
+nav > ul > li > a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 2rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+nav > ul > li > a:hover {
+   color:#b51e1e;
+   text-decoration:none;
+   font-weight: bold;
+   cursor:pointer;
+}

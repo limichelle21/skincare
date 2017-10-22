@@ -1,0 +1,49 @@
+Font (sans serif + handwriting)
+Colors: black + white, dark grey + light pink
+Navbar - fixed at top, all caps
+
+Sections - nested menus:
+- Jumbotron "Skin: you only have one."
+
+
+- Skin layers and their functions (graphics - skin layers, acid mantle)
+The epidermis, the outermost layer of skin, provides a waterproof barrier and creates our skin tone.
+The dermis, beneath the epidermis, contains tough connective tissue, hair follicles, and sweat glands.
+The deeper subcutaneous tissue (hypodermis) is made of fat and connective tissue.
+Skincare focuses on the epidermis and protecting the acid mantle.
+The acid mantle is a thin, slightly acid layer on the surface of the skin that creates a barrier to bacteria, viruses, and other contaminants.
+It is made up of sebum (free fatty acids) excreted from the skin's sebaceous glands, and when mixed with the acids from sweat, results in the skin's pH between 4.5-6.2.
+
+
+- pH level: why it matters. PH of skin, PH of products
+-- pH is a chemistry measurement of the acidity of a solution. It's measured in a scale from 0-14 where 0-6 is acidic, 7 is neutral, and 8-14 is basic (alkaline).
+In chemistry terms, pH measures the concentration of free hydrogen ions present in a solution.
+Solutions with a high concentration of free ions is considered acidic and solutions with a low concentration of free ions is considered basic.
+So what does this mean for skincare? The skin's acid mantle is slightly acidic, with pH ranging between 4.5-6.2.
+pH is highly sensitive to change, so you can disrupt your skin's natural pH (and therefore its ability to protect itself) by using products with a pH that is higher than the skin's pH.
+Disrupting the acid mantle's natural pH can lead to skin issues such as dermatitis, eczema, and acne (bacterias thrive better in more basic environments).
+
+The number one disrupter of the acid mantle are cleansers.
+Cleansers, especially the ones that foam up nicely, tend to be more alkaline.
+They strip away all oils from your face, leaving it feeling tight and "clean". In reality, they have destroyed your moisture barrier. 
+
+
+
+- Skin types and common concerns
+
+- How does UVA/UVB work?
+
+
+- Types of products: cleansers, toners, moisturizers, sunscreen, serums, essences, ampoules, creams
+- Types of moisturizers: humectants, emollients, occlusives, ceramides
+- Types of cleansers: oil, cream, foam
+- Types of acids: BHA, AHA
+- Types of boosters:
+
+- Basic Routine: sunscreen, cleanse, moisturize, repeat
+- Intermediate Routine: basic + acids (exfoliate)
+- Expert Routine: Intermediate + serums, essences, ampoules
+
+
+- Patch Testing
+- Tips: oil cleansing, hydrocolloid bandages
