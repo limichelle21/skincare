@@ -4,6 +4,7 @@ Navbar - fixed at top, all caps
 
 Sections - nested menus:
 - Jumbotron "Skin: you only have one."
+- PARALLAX SCROLL (https://www.w3schools.com/howto/howto_css_parallax.asp)
 
 
 - Skin layers and their functions (graphics - skin layers, acid mantle)
@@ -25,17 +26,41 @@ Disrupting the acid mantle's natural pH can lead to skin issues such as dermatit
 
 The number one disrupter of the acid mantle are cleansers.
 Cleansers, especially the ones that foam up nicely, tend to be more alkaline.
-They strip away all oils from your face, leaving it feeling tight and "clean". In reality, they have destroyed your moisture barrier. 
-
-
+They strip away all oils from your face, leaving it feeling tight and "clean". In reality, they have destroyed your moisture barrier.
 
 - Skin types and common concerns
+-- Normal - not prone to oil or dryness
+-- Oily - shiny all over, greasy
+-- Dry - tight and or flaky
+-- Combination - traits from all of the above
 
-- How does UVA/UVB work?
+Skin concerns
+- Post-inflammatory hyperpigmentation (PIH) -- dark spots, scars post inflammation
+- Post inflammatory erythema (PIE) -- red/purpple spots post inflammation
+- Dehydration -- feels tight, overly sensitive, over product oil to compensate
+- Dryness -- rough, flaky, lacks oil
+- Sensitivity -- skin reacts to harsh winds, scents, dirty pillowcases
+- Aging -- maintaining skin as one gets older
+- Skin tone -- maintaining a clear, even tone free from dark spots and blemishes
+- Acne -- hormonal, bacterial, fungal.. pimples
+- Blackheads -- oxidized oil + dirt
+- Whiteheads
+
+- UVA, UVB, and why SPF is not enough
+-- UVA(long wave) and UVB(short wave)
+- UVA rays account for 95% of UV radiation from the sun, less intense than UVB, but much more prevalent. They are present during all daylight hours and can penetrate through clouds and glass. This means that even if you're indoors, UVA rays can still reach you through glass windows.
+- UVA penetrates the skin more deeply than UVB. This is the ray responsible for the "tanning glow", but also contributes to skin aging, wrinkling, and cancer.
+- UVB rays cause skin reddening and sunburn, affecting the upper epidermal layers of skin. UVB rays are present during certain hours of the day and months of the year (10AM-4PM April-October in the US).
+- Why is SPF not enough?
+-- SPF stands for "sun protection factor" and it indicates how long it will take for UVB to redden your skin compared to no sunscreen at all. Using sunscreen at SPF 15 means your skin will take 15 times longer to burn than without sunscreen.
+-- Historically, most Western sunscreens focused only on SPF and protecting against UVB rays. However, the usage was generally limited to sunny days by the pool and extended outdoor activity.
+-- Most people come into contact with UVA rays on a daily basis and do not wear sunscreen.
 
 
-- Types of products: cleansers, toners, moisturizers, sunscreen, serums, essences, ampoules, creams
-- Types of moisturizers: humectants, emollients, occlusives, ceramides
+
+- Types of products: cleansers, toners, sunscreen, (serums, essences, ampoules), lotion, exofoliants
+- Types of Sunscreen: physical vs. chemical
+- Types of moisturizers: humectants, emollients, occlusives
 - Types of cleansers: oil, cream, foam
 - Types of acids: BHA, AHA
 - Types of boosters:
@@ -47,3 +72,17 @@ They strip away all oils from your face, leaving it feeling tight and "clean". I
 
 - Patch Testing
 - Tips: oil cleansing, hydrocolloid bandages
+
+- 3 Things to NEVER DO
+-- Baking soda exfoliation (Apricot Scrub): any kind of physical exfoliation with beads are too abrasive
+-- Lemon juice exfoliation: Google "lemon juice chemical burn" images, followed by "cute puppies". You're welcome.
+-- Pore strips: I know there is something very satisfying about seeing sebum on a pore strip, but in addition to not being very effective (they remove superficial sebum and dirt that will reappear in 24-48 hours), they can also run the risk of increasing pore size.
+
+
+
+Data Visuals
+http://selection.datavisualization.ch/
+
+Sources
+https://www.ncbi.nlm.nih.gov/pubmed/18489300
+https://www.reddit.com/r/AsianBeauty/wiki/theabroutine
