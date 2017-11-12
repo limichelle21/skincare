@@ -10,78 +10,31 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+
   </head>
 
   <body>
     <nav class="navbar navbar-custom navbar-fixed-top">
       <ul class="nav nav-pills">
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        <li>
+          <a href="#science">
               Science
-              <b class="caret"></b>
           </a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-              <li>
-                <a class="dropdown-item" href="#">Skin Layers</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">pH Levels</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Skin Types</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">UVA and UVB</a>
-              </li>
-            </ul>
         </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        <li>
+          <a href="#products">
               Products
-              <b class="caret"></b>
           </a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-              <li>
-                <a class="dropdown-item" href="#">Moisturizers</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Cleansers</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Acids</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Boosters</a>
-              </li>
-            </ul>
         </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        <li>
+          <a href="#routines">
               Routines
-              <b class="caret"></b>
           </a>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-            <li>
-              <a class="dropdown-item" href="#">Basic</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Intermediate</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Advanced</a>
-            </li>
-          </ul>
         </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle"
-             data-toggle="dropdown"
-             href="#resources">
+        <li>
+          <a href="#resources">
               Resources
-              <b class="caret"></b>
             </a>
-          <ul class="dropdown-menu">
-            <!-- links -->
-          </ul>
         </li>
       </ul>
     </nav>
@@ -94,7 +47,7 @@
         </div>
       </div>
 
-      <section id="intro" class="container-fluid paragraph">
+      <section id="intro" class="container-fluid paragraph-1">
         <h2>How Do You Take Care of your Skin?</h2>
         <hr class="section-heading-spacer"></hr>
         <p>I grew up in the era of ProActiv and St. Ives Apricot facial scrubs, and beauty blogs today still recommend lemon juice as a skin-brightener and baking soda as an exfoliant.</p>
@@ -102,26 +55,35 @@
           <img src="images/bakingsoda.png" class="content-img img-responsive">
           <figcaption>The Internet is dark and full of terrors</figcaption>
         </figure>
-        <p>It wasn't until I spent 3 months in Taiwan did I learn that everything I thought I knew about skin, acne, and skin products was wrong.</p>
-        <p>This site is an introductory primer to the basics of skin science and skincare routines for healthy skin.</p>
+        <p>It wasn't until I spent 3 months in Taiwan did I learn that everything I thought I knew about skin, acne, and skin products was wrong.
+          Since then, I've fallen down the rabbit hole, researching everything from the science behind my skin to which products might be best suited for me.</p>
+        <p>This site is an introductory primer to the basics of skin science, products, and routines for maintaining healthy skin.</p>
       </section>
 
-      <div class="bgimg-2">
+      <div class="bgimg-2" id="science">
         <div class="caption">
           <span class="border">SCIENCE</span>
         </div>
       </div>
 
-      <section id="science" class="container-fluid paragraph">
+      <section class="container-fluid paragraph">
         <div id="skinlayers" class="spacer">
           <h2>Layers of Skin</h2>
           <hr class="section-heading-spacer"></hr>
-          <p>The epidermis, the outermost layer of skin, provides a waterproof barrier and creates our skin tone.</p>
-          <p>The dermis, beneath the epidermis, contains tough connective tissue, hair follicles, and sweat glands.</p>
-          <p>The deeper subcutaneous tissue (hypodermis) is made of fat and connective tissue.</p>
-          <p>Skincare focuses on the epidermis and protecting the acid mantle.</p>
-          <p>The acid mantle is a thin, slightly acid layer on the surface of the skin that creates a barrier to bacteria, viruses, and other contaminants.
-          It is made up of sebum (free fatty acids) excreted from the skin's sebaceous glands, and when mixed with the acids from sweat, results in the skin's pH between 4.5-6.2.</p>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/skinlayers.jpg" class="content-img img-responsive">
+            </div>
+            <div class="col-md-8">
+              <br>
+              <p>The epidermis, the outermost layer of skin, provides a waterproof barrier and creates our skin tone.</p>
+              <p>The dermis, beneath the epidermis, contains tough connective tissue, hair follicles, and sweat glands.</p>
+              <p>The deeper subcutaneous tissue (hypodermis) is made of fat and connective tissue.</p>
+              <p>Skincare focuses on the epidermis and protecting the acid mantle.</p>
+              <p>The acid mantle is a thin, slightly acid layer on the surface of the skin that creates a barrier to bacteria, viruses, and other contaminants.
+              It is made up of sebum (free fatty acids) excreted from the skin's sebaceous glands, and when mixed with the acids from sweat, results in the skin's pH between 4.5-6.2.</p>
+            </div>
+          </div>
         </div>
         <div id="phlevel" class="spacer">
           <h2>pH: Why it Matters</h2>
@@ -144,115 +106,138 @@
           <h2>Know Your Skin Type</h2>
           <hr class="section-heading-spacer"></hr>
           <p>The first step of assessing your skin type and needs will determine the types of products that are best suited for you.</p>
-          <br>
-          <p>Normal - not prone to oil or dryness</p>
-          <br>
-          <p>Oily - shiny all over, greasy</p>
-          <br>
-          <p>Dry - tight and or flaky</p>
-          <br>
-          <p>Combination - traits from all of the above</p>
-          <br>
+          <ul>
+            <li>Normal - not prone to oil or dryness; produces just the right amount of sebum</li>
+            <li>Oily - shiny all over, greasy; overproduction of sebum</li>
+            <li>Dry - tight and or flaky; underproduction of sebum</li>
+            <li>Combination - traits from all of the above</li>
+          </ul>
           <p>Most people may fall under the Combination type, where different parts of the face are prone to different types.</p>
+          <p>Dry skin should not be confused with dehyrdrated skin, which can manifest itself as oily. If your skin is dehydrated, it may try to overcompensate with extra sebum production resulting in oily skin.</p>
         </div>
-        <div id="skintypes" class="spacer">
+        <div id="uva" class="spacer">
           <h2>UVA, UVB, and Why SPF is Not Enough</h2>
           <hr class="section-heading-spacer"></hr>
+          <div class="row">
+            <div class="col-md-8">
+              <p>UVA rays account for 95% of UV radiation from the sun. They are less intense than UVB, but much more prevalent. They are present during all daylight hours and can penetrate through clouds and glass. This means that even if you're indoors, UVA rays can still reach you through glass windows.
+              UVA penetrates the skin more deeply than UVB. This is the ray responsible for the "tanning glow", but also contributes to skin aging, wrinkling, and cancer.
+              <p>UVB rays cause skin reddening and sunburn, affecting the upper epidermal layers of skin. UVB rays are present during certain hours of the day and months of the year (10AM-4PM April-October in the US). Traditionally, sunscreen has been formulated to protect against UVB.</p>
+            </div>
+            <div class="col-md-4">
+              <img src="images/uvauvb.jpg" class="content-img img-responsive">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/uvb.jpg" class="content-img img-responsive">
+            </div>
+            <div class="col-md-8">
+              <p>SPF stands for "sun protection factor" and it indicates how long it will take for UVB to redden your skin compared to wearing no sunscreen at all. Using sunscreen at SPF 15 means your skin will take 15 times longer to burn than without sunscreen.
+                Historically, most Western sunscreens focused only on SPF and protecting against UVB rays. However, the usage was generally limited to sunny days by the pool and extended outdoor activity.
+                Most people come into contact with UVA rays on a daily basis and do not wear sunscreen.</p>
+              <p>Broad spectrum sunscreens are formulated to protect against both UVA and UVB rays, although most are still measured in SPF. The Japanese have put forth a PA rating (Protection Grade of UVA rays) to measure UVA protection.
+                 Asian sunscreens will often be labeled with both SPF and PA. PA+ provides minimal protection, PA++ provides moderate protection, and PA+++ provides the highest.</p>
+              <p>Key ingredients to look for in broad spectrum sunscreens are zinc oxide, titanium dioxide, oxybenzone, avobenzone, and mexoryl.</p>
+            </div>
+          </div>
         </div>
 
       </section>
 
-      <div class="bgimg-3">
+      <div class="bgimg-3" id="products">
         <div class="caption">
           <span class="border">PRODUCTS</span>
         </div>
       </div>
 
-      <section id="products" class="container-fluid paragraph">
+      <section class="container-fluid paragraph">
         <div class="container-fluid" >
           <h2>General Product Categories</h2>
           <hr class="section-heading-spacer"></hr>
           <div class="row">
             <div class="col-md-4 product-card">
-              <h3>Cleanser</h3>
-              <p>Cleansers remove oils, dirt, sunscreen, and makeup from your skin.</p>
-              <p>Contrary to common opinion, your skin should not feel tight and dry after cleansing. This is a sign that the cleanser is too harsh.</p>
-              <p>Popular types of cleansers include oil and foaming. Oil cleansing is popular for being gentle, yet effective at removing impurities without destroying the acid mantle.</p>
-            </div>
-            <div class="col-md-4 product-card">
-              <h3>Moisturizer</h3>
-              <p>If you cleanse, you must moisturize. Moisturizers replace any of the natural moisture (i.e. sebum) that have been washed away in the cleansing process.</p>
-              <p>Moisturizers keep your skin hydrated, plump, and healthy.</p>
-              <p>These products range from watery lotions (add hydration) to thick night creams (prevent moisture loss).</p>
-            </div>
-            <div class="col-md-4 product-card">
-              <h3>Exfoliant</h3>
-              <p>There are two types of exfoliants: physical and chemical.</p>
-              <p>Physical exfoliants tend to be very harsh, and when used excessively, can damage your acid mantle and encourage acne. Physical exfoliation should be done sparingly, and with gentle products such as konjac sponges.</p>
-              <p>Chemical exfoliants (aka: Acids) sounds scary, but are actually better for getting rid of dead skin, improving skin tone, fighting acne, and getting rid of closed comedones. The two primary types of acids used are AHA and BHA.</p>
-              <p>Acids should be introduced to your skin gently, starting at a low percentage and no more than twice a week. At any signs of dryness or irritation, you may need to reduce the frequency and/or product strength.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 product-card">
               <h3>Sunscreen</h3>
+              <figure>
+                <img src="images/sunscreen.jpg" class="content-img img-responsive">
+                <figcaption>Shiseido SENKA Mineral Water UV Gel SPF50 PA+++</figcaption>
+              </figure>
               <p>Sun exposure is one of the primary factors of skin aging, with results ranging from wrinkles to skin cancer.</p>
               <p>Sunscreen is not just for days at the beach; it should be a daily practice and part of any skincare routine.</p>
               <p>There are two primary types of sunscreen: physical and chemical. Physical sunscreens work by reflecting UV rays from your skin, while chemical sunscreens convert UV rays into heat that is released from the skin.</p>
               <p>Asian sunscreens tend to be better formulated for facial application compared to the heavier western Banana-Boat-type sunscreens.</p>
             </div>
             <div class="col-md-4 product-card">
+              <h3>Cleanser</h3>
+              <figure>
+                <img src="images/cleanser.jpg" class="content-img img-responsive">
+                <figcaption>COSRX Low pH Cleanser</figcaption>
+              </figure>
+              <p>Cleansers remove oils, dirt, sunscreen, and makeup from your skin.</p>
+              <p>Contrary to common opinion, your skin should not feel tight and dry after cleansing. This is a sign that the cleanser is too harsh. Therefore, it's very important to select a cleanser with the appropriate pH.</p>
+              <p>Types of cleansers include oils, balms, creams, and foams. Foaming cleansers, even at a pH level close to your skin, can be stripping as a result of the surfactant ingredients required for the foaming action.</p>
+              <p>Oil cleansing is popular for being gentle, yet effective at removing impurities without destroying the acid mantle.</p>
+            </div>
+            <div class="col-md-4 product-card">
+              <h3>Moisturizer</h3>
+              <figure>
+                <img src="images/moisturizer.jpg" class="content-img img-responsive">
+                <figcaption>Hada Labo Gokujun Hyaluronic Acid Lotion</figcaption>
+              </figure>
+              <p>If you cleanse, you must moisturize. Moisturizers replace any of the natural moisture (i.e. sebum) that have been washed away in the cleansing process.</p>
+              <p>Moisturizers keep your skin hydrated, plump, and healthy. These products range from watery lotions (add hydration) to thick night creams (prevent moisture loss).</p>
+              <p>There are three general categories of moisturizers:</p>
+              <ul>
+                <li>Humectants: draw moisture from the atmosphere and lower layers of skin to give the upper layer more moisture. If used excessively, and especially in dry climates, this can draw out too much moisture from the lower levels of skin, thus worsening the dryness.</li>
+                <li>Occlusives: provides some occlusivity and fills in the cracks between dry skin cells, thus improving the appearance of smoother skin</li>
+                <li>Emollients: coat the skin and prevent "trans-epidermal" water loss. The downside is that they tend to leave a greasy feeling.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 product-card">
+              <h3>Exfoliant</h3>
+              <figure>
+                <img src="images/exfoliant.jpg" class="content-img img-responsive">
+                <figcaption>Stridex 2% Salicyilc Acid Max Strength Pads</figcaption>
+              </figure>
+              <p>There are two types of exfoliants: physical and chemical.</p>
+              <p>Physical exfoliants tend to be very harsh, and when used excessively, can damage your acid mantle and encourage acne. Physical exfoliation should be done sparingly, and with gentle products such as konjac sponges.</p>
+              <p>Chemical exfoliants (aka: Acids) sounds scary, but are actually better for getting rid of dead skin, improving skin tone, fighting acne, and getting rid of closed comedones. The two primary types of acids used are AHA and BHA.</p>
+              <p>Acids should be introduced to your skin gently, starting at a low percentage and no more than twice a week. At any signs of dryness or irritation, you may need to reduce the frequency and/or product strength.</p>
+            </div>
+            <div class="col-md-4 product-card">
               <h3>Serum, Essence, Ampoule</h3>
+              <figure>
+                <img src="images/essence.jpg" class="content-img img-responsive">
+                <figcaption>SK-II Facial Treatment Essence</figcaption>
+              </figure>
               <p>These products are for targeted skin issues like brightening, dark spots, or wrinkles.</p>
-              <p>They often come in smaller packages with higher concentration of active ingredients such as Vitamin C and propolis.</p>
+              <p>They often come in smaller packages with higher concentration of active ingredients such as yeast ferment, snail, and propolis.</p>
               <p>Traditionally, the differences between the three are often related to texture, although now serums have become thinner and essences have become thicker.</p>
             </div>
             <div class="col-md-4 product-card">
               <h3>Sheet Mask</h3>
+              <figure>
+                <img src="images/sheetmask.jpg" class="content-img img-responsive">
+                <figcaption>Papa Recipe Bombee Honey Mask</figcaption>
+              </figure>
               <p>These are the "gateway drug" to skincare, particularly Asian skincare.</p>
               <p>The one-time use cotton masks come soaked in a hydrating solution that is placed on your face.</p>
               <p>These are fun to use especially on long-haul flights because airplane air is especially drying, but don't offer that much function except for fun. Which I suppose is a function in itself.</p>
             </div>
           </div>
         </div>
-        <hr></hr>
-        <div class="container-fluid">
-          <h2>Types of Moisturizers</h2>
-          <p>There are three broad categories of moisturizers</p>
-          <div class="row">
-            <div class="col-md-4">Humectants</div>
-            <div class="col-md-4">Emollients</div>
-            <div class="col-md-4">Occlusives</div>
-          </div>
-        </div>
-        <hr></hr>
-        <div class="container-fluid">
-          <h2>Types of Cleansers</h2>
-          <div class="row">
-            <div class="col-md-4">Oil</div>
-            <div class="col-md-4">Cream</div>
-            <div class="col-md-4">Foam</div>
-          </div>
-        </div>
-        <hr></hr>
-        <div class="container-fluid">
-          <h2>Types of Exfoliants</h2>
-          <p>These products help exfoliant the skin by removing dead skin cells either through chemical or physical exfoliation.</p>
-          <div class="row">
-            <div class="col-md-4">BHA</div>
-            <div class="col-md-4">AHA</div>
-            <div class="col-md-4">Scrubs</div>
-          </div>
-        </div>
       </section>
 
-      <div class="bgimg-4">
+      <div class="bgimg-4" id="routines">
         <div class="caption">
           <span class="border">ROUTINES</span>
         </div>
       </div>
 
-      <section id="routines" class="container-fluid paragraph">
+      <section class="container-fluid paragraph">
         <div class="spacer">
           <h2>Basic Routine</h2>
           <hr class="section-heading-spacer"></hr>
@@ -274,11 +259,102 @@
           <hr class="section-heading-spacer"></hr>
           <p>Once you've mastered the routines above, now you're ready to take your skincare to the next level with serums, ampoules, and essences to target specific skin concerns.</p>
           <p>There are products for just about any concern imaginable, from PIH to skin lightening to rosacea and of course, wrinkles!</p>
+          <p>Serums and essences are generally used after exfoliation and before moisturizing.</p>
         </div>
       </section>
 
-      <section id="resources">
+      <div class="bgimg-1" id="resources">
+        <div class="caption">
+          <span class="border">RESOURCES</span>
+        </div>
+      </div>
+
+      <section class="container-fluid paragraph">
+        <div class="spacer">
+          <h2>General Tips</h2>
+          <hr class="section-heading-spacer"></hr>
+          <ol>
+            <li>YMMV</li>
+            <ul>
+              <li>A popular term in the skincare community - Your Mileage May Vary.</li>
+              <li>What works well for others may not work at all for you. The process of trial and error can be lengthy, but impatience won't provide the results you want any quicker.</li>
+            </ul>
+            <li>Patch Test</li>
+            <ul>
+              <li>When using new products, it's important to test the product on a small patch of skin, such as your wrist, before slathering it all over your face.</li>
+              <li>Therefore, if you do have an allergic reaction, it's limited to a small area and ideally not on your face.</li>
+              <li>It's a much less painful way to discover what products work and don't work for you.</li>
+              <li>On a related note, you should introduce new products into your routine one at a time. Therefore, you can isolate any changes in your skin to one product rather than trying to figure out which of the five new products on your skin is causing the reaction.</li>
+            </ul>
+            <li>Haul Responsibly</li>
+            <ul>
+              <li>This is a tip for your wallet. It's so easy to get lost in the product reviews and raves to the point where you want to buy EVERYTHING all at once.</li>
+              <li>Don't do this: you run the risk of buying products that don't work for you, feel the need to use them all at once, and then possibly end up with reactions all over the place.</li>
+              <li>Instead, take things slow: research products, buy one of each item in the basic routine, patch test, and introduce them to your skin one at a time.</li>
+              <li>Your first haul should contain no more than 3 items: sunscreen, cleanser, and moisturizer.</li>
+            </ul>
+            <li>Please, Please Don't Do Try These</li>
+            <ul>
+              <li>Baking soda facial scrub. Baking soda has a pH of 9 and the granules are extremely abrasive. You would be destroying not only the acid mantle, but quite possibly a decent layer of skin.</li>
+              <li>Applying lemon juice on your face. Google "lemon juice chemical burn" images, followed by "cute puppies".</li>
+              <li>Pore strips: I know it can be highly satisfying to see gunk that's been ripped out of your face, but the feeling doesn't last. The oil and pollutants will reappear in 24-48 hours, and you've just over-stretched the skin around the pores (--> more visible pores!).</li>
+            </ul>
+            <li>Layering Products</li>
+            <ul>
+              <li>Asian skincare focuses on layering products that serve different purposes, compared to Western products that are multipurpose.</li>
+              <li>If you choose to layer products, they should be in the order of thinnest viscosity to thickest.</li>
+            </ul>
+            <li>Micellar Water</li>
+            <ul>
+              <li>During my research on cleansers, I came upon a curious little thing called micelles: molecules that (insert science here) are attracted to oils and dirt within the context of skincare.</li>
+              <li>Micelles are suspended in water to create micellar water, a gentle cleanser to remove oils, dirt, and makeup from skin without being overly stripping.</li>
+              <li>I travel with cotton pads soaked in micellar water for a quick refresher during or after a flight.</li>
+            </ul>
+            <li>Traveling with Skincare</li>
+            <ul>
+              <li>The most popular method is to decant all of your regular products into small, TSA approved carry-on size containers.</li>
+              <li>Long haul flights are terrible on your skin due to the dryness of the cabin. Pack a sheet mask for some extra hydration in-flight.</li>
+            </ul>
+          </ol>
+        </div>
       </section>
+
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="https://facebook.us17.list-manage.com/subscribe/post?u=0d0336e6870dccbc9c84e958d&amp;id=c985f8236c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+        	<h2>Where To Go From Here</h2>
+          <p>I hope this mini-guide has been helpful in explaining some of science behind your skin and the different types of products/routines that can be used to take care of your skin.</p>
+          <p>For more in-depth, rainy-afternoon browsing, the subreddits <a href="https://www.reddit.com/r/SkincareAddiction/">r/SkincareAddiction</a> and <a href="https://www.reddit.com/r/AsianBeauty/">r/AsianBeauty</a> are my go-to's for everything from living vicariously through hauls to researching product recommendations.</p>
+          <p>While I have yet to achieve my higher level skin goals, I've noticed that I am much more in tune with how my skin feels, how it reacts to changes in the weather, and what products are best suited for those needs.</p>
+          <br>
+          <h4>Leave a note here if you'd like to get in touch :)</h4>
+        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+        <div class="mc-field-group form-group row">
+        	<label for="mce-EMAIL" class="col-sm-2 col-form-label">Email Address  <span class="asterisk">*</span>
+        </label>
+          <div class="col-sm-10">
+        	   <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL">
+          </div>
+        </div>
+        <div class="mc-field-group form-group row">
+        	<label for="mce-MMERGE2" class="col-sm-2 col-form-label">Message  <span class="asterisk">*</span>
+        </label>
+          <div class="col-sm-10">
+        	   <textarea name="MMERGE2" class="form-control" rows="2" placeholder="Leave a note!" id="mce-MMERGE2"></textarea>
+          </div>
+        </div>
+      	<div id="mce-responses" class="clear">
+      		<div class="response" id="mce-error-response" style="display:none"></div>
+      		<div class="response" id="mce-success-response" style="display:none"></div>
+      	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0d0336e6870dccbc9c84e958d_c985f8236c" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Contact" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default"></div>
+        </div>
+        </form>
+      </div>
+
+      <!--End mc_embed_signup-->
 
     </main>
 

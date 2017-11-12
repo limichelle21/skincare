@@ -7,7 +7,7 @@ body, html {
   background-color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -15,7 +15,6 @@ nav {
   height: 6rem;
   text-align: right;
   padding: 1rem 0;
-  background-color:
 }
 
 ul.nav.nav-pills {
@@ -41,6 +40,7 @@ nav > ul > li > a:hover {
    text-decoration:none;
    font-weight: bold;
    cursor:pointer;
+   background-color: #282E34;
 }
 
 .navbar-custom {
@@ -67,7 +67,8 @@ nav > ul > li > a:hover {
   min-height: 50rem;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   position: relative;
   opacity: 0.75;
   background-attachment: fixed;
@@ -86,6 +87,7 @@ nav > ul > li > a:hover {
   margin: auto;
   border-radius: 5px;
 }
+
 
 figcaption {
   text-align: center;
@@ -115,9 +117,18 @@ h2 {
   text-align: center;
 }
 
+.paragraph-1 {
+  color:#fff;
+  background-color: #282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+
 .paragraph {
-  color:#ddd;
-  background-color:#282E34;
+  color:#282E34;
+  background-color: #fff;
   text-align:center;
   padding:50px 80px;
   text-align: justify;
@@ -125,6 +136,10 @@ h2 {
 
 .product-card > h3 {
   text-align: center;
+}
+
+.product-card > p, li {
+  text-align: left;
 }
 
 .section-heading-spacer {
@@ -138,7 +153,32 @@ h2 {
 
 
 @media only screen and (max-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
+}
+
+/* Contact Form */
+
+.indicates-required {
+  color: #808080;
+}
+
+#mc_embed_signup {
+  color: #fff;
+  background-color: #282E34;
+  padding: 3rem;
+}
+
+.mc-field-group {
+  padding-bottom: 1rem;
+}
+
+.mc-field-group > input {
+  border-radius: 5px;
+  padding-left: 2rem;
+}
+
+#mce-MMERGE2 {
+  line-height: 5rem;
 }

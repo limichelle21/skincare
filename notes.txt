@@ -55,12 +55,18 @@ Skin concerns
 -- SPF stands for "sun protection factor" and it indicates how long it will take for UVB to redden your skin compared to no sunscreen at all. Using sunscreen at SPF 15 means your skin will take 15 times longer to burn than without sunscreen.
 -- Historically, most Western sunscreens focused only on SPF and protecting against UVB rays. However, the usage was generally limited to sunny days by the pool and extended outdoor activity.
 -- Most people come into contact with UVA rays on a daily basis and do not wear sunscreen.
+-- Broad spectrum sunscreens are formulated to protect against both UVA and UVB rays, although most are still measured in SPF. The Japanese have put forth a PA rating (Protection Grade of UVA rays) to measure UVA protection.
+-- Asian sunscreens will often be labeled with both SPF and PA. PA+ provides minimal protection, PA++ provides moderate protection, and PA+++ provides the highest.
+-- Key ingredients to look for in broad spectrum sunscreens are zinc oxide, titanium dioxide, oxybenzone, avobenzone, and mexoryl.
 
 
 
-- Types of products: cleansers, toners, sunscreen, (serums, essences, ampoules), lotion, exofoliants
+- Types of products: cleansers, toners, sunscreen, (serums, essences, ampoules), lotion, exfoliants
 - Types of Sunscreen: physical vs. chemical
-- Types of moisturizers: humectants, emollients, occlusives
+- Types of moisturizers:
+-- humectants: draw moisture from the atmosphere and lower layers of skin to give the upper layer more moisture. If used excessively, and especially in dry climates, this can draw out too much moisture from the lower levels of skin, thus worsening the dryness.
+-- emollients: provides some occlusivity and fills in the cracks between dry skin cells, thus improving the appearance of smoother skin
+-- occlusives: coat the skin and prevent "trans-epidermal" water loss. The downside is that they tend to leave a greasy feeling.
 - Types of cleansers: oil, cream, foam
 - Types of acids: BHA, AHA
 - Types of boosters:
@@ -71,7 +77,7 @@ Skin concerns
 
 
 - Patch Testing
-- Tips: oil cleansing, hydrocolloid bandages
+- Tips: oil cleansing, hydrocolloid bandages, haul responsibly
 
 - 3 Things to NEVER DO
 -- Baking soda exfoliation (Apricot Scrub): any kind of physical exfoliation with beads are too abrasive
