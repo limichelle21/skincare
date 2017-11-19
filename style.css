@@ -7,35 +7,23 @@ body, html {
   background-color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-
-nav {
-  height: 6rem;
-  text-align: right;
-  padding: 1rem 0;
+p {
+  font-size: 16px;
+  text-align: left;
 }
 
-ul.nav.nav-pills {
-    text-align: right;
-    position: fixed;
-}
-
-.nav-pills > li {
-    float: none;
-    display: inline-block;
-}
-
-nav > ul > li > a {
+.nav-list {
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin: 0 2rem;
+  margin: 0 20px;
   text-decoration: none;
   color: #000000;
 }
 
-nav > ul > li > a:hover {
+.nav-list a:hover {
    color:#b51e1e;
    text-decoration:none;
    font-weight: bold;
@@ -46,6 +34,7 @@ nav > ul > li > a:hover {
 .navbar-custom {
   background-color: #fff;
 }
+
 
 .bgimg-1 {
   background-image: url("images/back.jpg");
@@ -88,6 +77,13 @@ nav > ul > li > a:hover {
   border-radius: 5px;
 }
 
+.img-container {
+  margin: 40px;
+}
+
+figure {
+  margin: 40px;
+}
 
 figcaption {
   text-align: center;
@@ -149,6 +145,11 @@ h2 {
 
 .spacer {
   padding: 1rem 0;
+}
+
+.content-div {
+  max-width: 1000px;
+  margin: auto;
 }
 
 
